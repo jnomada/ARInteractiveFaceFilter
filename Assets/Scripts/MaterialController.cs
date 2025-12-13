@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class MaterialController : MonoBehaviour
 {
+    public String[] meshTags;
+    
     public void ChangeAllMaterials(Material mat)
     {
         foreach (string tag in meshTags)
