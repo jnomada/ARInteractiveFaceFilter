@@ -27,6 +27,7 @@ public class MeshController : MonoBehaviour
         foreach (string tag in meshTags)
         {
             GameObject meshObject = GameObject.FindWithTag(tag);
+            Debug.Log(tag);
             if (meshObject != null)
             {
                 meshObject.GetComponent<Renderer>().enabled = false;

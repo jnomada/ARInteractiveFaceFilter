@@ -1,29 +1,9 @@
-# Descrición
+# ARInteractiveFaceFilter
+## Cambios hechos
 
-Emprega este arquivo para describir os cambios do teu proxecto.
+- He añadido tres prefabs nuevos al "glasses group", dos máscaras y un bigote ya que el "AR Face Manager" utiliza este grupo para mostrar los gameobject en la cara. Les he dado un tag único a cada uno.
+- En el AR_Canvas he añadido otro grupo nuevo de botones "Mask Buttons", con tres botones. Cada botón utiliza una imagen para representar la máscara que añade. Al OnClick de cada botón les asigné el filterController, pasándole el tag de la máscara que activa.
+- En el propio filterController añadí los nuevos tags para que se pueda desactivar todos los gameobjects y solo mostrar el que haya sido seleccionado.
+- Build realizado y probado en el dispositivo móvil con éxito.
 
-Utiliza o formato en markdown coas marcas básicas que aparecen no seguinte exemplo:
-
-# Título principal
-## Subtítulo
-
-Texto normal con **negriña** e *cursiva*.
-
-- Lista 1
-- Lista 2
-
-[Ligazón](https://exemplo.com)
-
-
-```csharp
-using UnityEngine;
-
-public class OlaMundo : MonoBehaviour
-{
-    void Start()
-    {
-        Debug.Log("Ola, mundo desde C#!");
-    }
-}
-
-```
+[Ligazón](https://github.com/jnomada/ARInteractiveFaceFilter)
